@@ -1,0 +1,45 @@
+.topcontainer {
+  background-color: #1a1a1a;
+}
+.one {
+  width: 75%;
+  margin: auto;
+  height: 42px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.two {
+  /* border: 1px soldi red; */
+  display: flex;
+  margin-top: 10px;
+}
+.three {
+  /* border: 1px soldi red; */
+  display: flex;
+  margin-top: 10px;
+}
+.three > div {
+  color: #626262;
+  margin-right: 20px;
+}
+.four {
+  color: #626262;
+}
+.five {
+  color: #626262;
+  padding-left: 20px;
+  border-left: 2px solid #626262;
+  margin-left: 20px;
+  height: 70%;
+}
+.socialimg {
+  height: 10px;
+}
+
+@media all and (max-width: 391px) {
+  .topcontainer {
+    width: 950px;
+    /* border: 1px solid red; */
+  }
+}

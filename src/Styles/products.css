@@ -1,0 +1,131 @@
+.productpage {
+  width: 75%;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.newproducts {
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 108px;
+  padding-top: 40px;
+}
+.underline {
+  position: absolute;
+  width: 530px;
+  height: 0px;
+  left: 190px;
+  background: #000000;
+  border: 1px solid #161615;
+}
+.displaydata {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 630px;
+}
+.category {
+  /* border: 1px solid red; */
+  width: 20%;
+  margin-top: 40px;
+}
+.category > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  cursor: pointer;
+}
+.category > p:hover {
+  font-size: 25px;
+  font-weight: bold;
+}
+.apidata {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin-top: 40px;
+}
+.api-image {
+  width: 250px;
+  height: 322px;
+  /* width: fit-content; */
+}
+.pd-name {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: left;
+}
+.pd-des {
+  font-size: 14px;
+  text-align: left;
+}
+.pd-price {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  text-align: left;
+}
+.display-data {
+  margin-right: 25px;
+}
+
+@media all and (max-width: 391px) {
+  .productpage {
+    /* border: 1px solid red; */
+    width: 150%;
+    margin-left: 40%;
+  }
+  .displaydata {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 730px;
+  }
+  .category {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+  .newproducts {
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .underline{
+    position: absolute;
+  width: 550px;
+  height: 0px;
+  left: 160px;
+  background: #000000;
+  border: 1px solid #161615;
+  }
+  .apidata{
+    /* border: 1px solid red; */
+    width: 85%;
+  }
+  .api-image {
+    width: 100%;
+    height: 432px;
+    /* width: fit-content; */
+  }
+  .pd-des{
+    font-size: 16px;
+  }
+}
